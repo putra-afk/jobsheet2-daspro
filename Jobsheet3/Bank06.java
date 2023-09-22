@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Bank06 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        sc.close();
         int init_sav_amount, sav_period;
         double final_sav_mount, interest, interest_percent = 0.02;
         System.out.print("Input your initial savings amount: ");
