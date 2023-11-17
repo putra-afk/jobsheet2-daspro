@@ -16,5 +16,9 @@ public class ExampleOperator06 {
         System.out.println("The result of x ^ y is " + z );
         z %= 2;
         System.out.println("The final result is " + z);
+        int a = 10;
+        a++;
+        a++;
+        System.out.println("Final result of  a is : " + a++);
     }
 }
